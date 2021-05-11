@@ -1,14 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
 
-* {
-    font-family:  'Girassol', cursive;
+header {
+    background-color:#0F1C70;
+    text-align: left;
+    color: white;
+    margin: 0px;
+    padding: 20px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+.topnav {
+    background-color: #0F1C70;
+    text-align: right;
+    margin: 1px;
+    padding: 25px;
+}
 
-/*font-family: 'Pangolin', cursive;*/
+.topnav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Girassol&family=New+Tegomin&family=Pangolin&display=swap');
+body {
+    background-image: url(/img/particles\ white\ .png);
+    color: blue;
+}
 
-/* font-family: 'New Tegomin', serif; */
- 
+.column {
+    background-color:#EEEEEE;
+    float: left;
+    width: 30%;
+    height: 150px;
+    margin: 5px;
+    padding: 25px;
+}
