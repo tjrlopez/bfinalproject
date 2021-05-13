@@ -2,37 +2,39 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat&display=swap');
 
-header {
-    background-color:#EEEEEE;
-    text-align: left;
-    color: #1A2B6B;
-    margin: 0px;
-    padding: 20px;
-    font-family: 'Montserrat', sans-serif;
+.header {
+  background-color:#1A2B6B;
+  text-align: left;
+  color: #EEEEEE;
+  margin: 0px;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-between;
 }
 
 .topnav {
-    background-color: #1A2B6B;
-    text-align: right;
-    padding: 40px;
+  background-color: #1A2B6B;
+  text-align: right;
+  padding: 40px;
 }
 
 .topnav a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #EEEEEE;
-    margin: 5px;
-    padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #EEEEEE;
+  margin: 5px;
+  padding: 20px;
 }
 
+.topnav a:hover {
+  background-color: #ced2d4a6;
+  padding: 30px;
+  border-radius: 20%;
+}
 body {
     background-image: url(/img/particles\ white\ .png);
     color: #1A2B6B;
-}
-
-a:hover {
-    padding: 30px;
-    background-color: rgb(70, 98, 160)
 }
 
 .fa {
@@ -44,16 +46,17 @@ a:hover {
     margin: 5px 2px;
   }
 
-footer {
+  footer {
     clear: both;
-    background-color: #1A2B6B;
-    text-align: right;
-    padding: 40px;
+    background-color:#ced2d4f8;
+    text-align: center;
+    padding: 10px;
+    color: #1A2B6B;
 }
 
 #social {
-    float: right;
-}
+  display: center;
+ }
 
  /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {

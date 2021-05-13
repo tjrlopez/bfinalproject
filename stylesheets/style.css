@@ -2,13 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat&display=swap');
 
-header {
-    background-color:#EEEEEE;
+.header {
+    background-color:#1A2B6B;
     text-align: left;
-    color: #1A2B6B;
+    color: #EEEEEE;
     margin: 0px;
-    padding: 20px;
+    padding: 5px;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
 }
 
 .topnav {
@@ -25,24 +27,29 @@ header {
     padding: 20px;
 }
 
+.topnav a:hover {
+    background-color: #ced2d4a6;
+    padding: 30px;
+    border-radius: 20%;
+}
+
 body {
     background-image: url(/img/particles\ white\ .png);
     color: #1A2B6B;
 }
 
-.column {
-    background-color:#EEEEEE;
-    float: left;
-    width: 30%;
-    height: 150px;
-    margin: 5px;
-    padding: 25px;
-    font-family: 'Cardo', serif;
+h1 {
+    text-align: center;
 }
 
-a:hover {
-    padding: 30px;
-    background-color: rgb(70, 98, 160)
+.column {
+    background-color:#ced2d4f8;
+    width: 400px;
+    margin: 10px;
+    height: 300px;
+    padding: 50px;
+    font-family: 'Cardo', serif;
+    margin: 10px;
 }
 
 .fa {
@@ -56,11 +63,18 @@ a:hover {
    
   footer {
     clear: both;
-    background-color: #1A2B6B;
-    text-align: right;
-    padding: 40px;
+    background-color:#ced2d4f8;
+    text-align: center;
+    padding: 10px;
+    color: #1A2B6B;
 }
 
 #social {
-    float: right;
+ display: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
