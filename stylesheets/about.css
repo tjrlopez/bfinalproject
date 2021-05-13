@@ -58,3 +58,37 @@ body {
 #social {
  display: center;
 }
+
+.header span {
+    color: #ced2d4f8;
+    font-size: 6vh;
+}
+
+.features {
+    display: inline-block;
+    width: 33%;
+}
+
+.featured-item {
+    background-color: #ced2d4f8;
+    margin: 1px;
+    margin-bottom: 10px;
+    padding: 30px;
+    border-radius: 15mm;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+aside {
+    padding: 29px;
+    margin: 5%;
+    margin-top: 10%;
+    float: right;
+    width: 52%;
+    height: 650px;
+    background-color: #ced2d4f8;
+    border-radius:15mm;
+}
