@@ -46,6 +46,22 @@ body {
     text-decoration: none;
     margin: 5px 2px;
   }
+
+.fa-twitter {
+    color: #55ACEE;
+}
+ 
+.fa-facebook {
+   color: #3B5998;
+} 
+
+.fa-instagram {
+  color: #125688;
+}
+
+.fa-reddit {
+  color: #ff5700;
+}
   
   footer {
     clear: both;
@@ -85,10 +101,15 @@ img {
 aside {
     padding: 29px;
     margin: 5%;
-    margin-top: 10%;
+    margin-top: 5%;
     float: right;
     width: 52%;
-    height: 650px;
+    height: 920px;
     background-color: #ced2d4f8;
     border-radius:15mm;
+    overflow:auto;
+}
+
+section {
+    margin-top: 25px;
 }
